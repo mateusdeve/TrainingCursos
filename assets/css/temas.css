@@ -1,0 +1,9 @@
+.autura {
+	height: 400px;
+}
+
+@media (max-width: 1000px) {
+  .autura {
+    height: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+$('.modal_open').modal('show');

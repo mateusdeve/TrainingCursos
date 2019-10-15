@@ -1,0 +1,114 @@
+.carousel-item {
+  /*height: 60vh;*/
+  height: 36vh;
+  /*min-height: 300px;*/
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100% !important;
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    /*height: 60vh;*/
+    height: 36vh;
+    /*min-height: 300px;*/
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-item {
+    /*height: 60vh;*/
+    height: 44vh;
+    /*min-height: 300px;*/
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item {
+    /*height: 60vh;*/
+    height: 52vh;
+    /*min-height: 300px;*/
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel-item {
+    /*height: 60vh;*/
+    height: 60vh;
+    /*min-height: 300px;*/
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100% !important;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+#topbar {
+  transition: top 0.3s;
+}
+#img-carousel {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#whp {
+  border-radius: 40px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.70);
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  z-index: 999;
+  text-decoration: none;
+  color: white;
+  transition: width .2s;
+  cursor:pointer;
+}
+
+#whp-text {
+  display: none;
+  opacity: 0;
+  transition: opacity .3s;
+
+}
+
+#whp-img {
+
+}
+.img-size div {
+opacity: 1;
+}
+.img-siz form {
+
+  opacity: 0.8;
+}
